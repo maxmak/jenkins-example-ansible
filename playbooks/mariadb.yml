@@ -30,7 +30,7 @@
     - name: Install MariaDB server
       yum:
         name:
-          - MariaDB-server
+          - mariadb
         state: latest
     - name: start MariaDB service
       systemd:
